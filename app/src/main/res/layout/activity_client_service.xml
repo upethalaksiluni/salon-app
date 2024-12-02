@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ClientServiceActivity">
+
+    <!-- Heading Section -->
+    <TextView
+        android:id="@+id/headingTextView"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Available Services in Our Salon"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Image Section -->
+    <ImageView
+        android:id="@+id/salonImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/serviceclient"
+        android:scaleType="centerCrop"
+        android:contentDescription="Salon Image"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/backToDashboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:id="@+id/clientServiceListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

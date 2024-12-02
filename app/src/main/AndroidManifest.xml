@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SulochanaSalon"
+        tools:targetApi="31">
+        <activity
+            android:name=".AdminNotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BillActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientPaymentHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPaymentHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ThankYouActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientAppointmentHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddEditServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminServiceManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientAppointmentBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAppointmentManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

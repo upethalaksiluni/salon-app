@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context=".AdminServiceManagementActivity">
+
+    <!-- Add Service Button -->
+    <Button
+        android:id="@+id/addServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Service"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/backToDashboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp" />
+
+    <!-- List View for Services -->
+    <ListView
+        android:id="@+id/serviceListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

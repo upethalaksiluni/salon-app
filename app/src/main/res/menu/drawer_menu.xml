@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_profile"
+        android:title="View Profile"
+        android:icon="@drawable/ic_profile" />
+
+    <item
+        android:id="@+id/nav_appointments"
+        android:title="Book Appointment"
+        android:icon="@drawable/ic_appointments" />
+
+    <item
+        android:id="@+id/nav_services"
+        android:title="View Services"
+        android:icon="@drawable/ic_add_service" />
+
+    <item
+        android:id="@+id/nav_payment_history"
+        android:title="Payment History"
+        android:icon="@drawable/ic_payment_history" />
+
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="View Notifications"
+        android:icon="@drawable/ic_notifications" />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout" />
+</menu>

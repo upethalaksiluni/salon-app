@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FeedbackActivity">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/feedbackHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feedback"
+        android:textSize="28sp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Image with Rounded Corners -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:id="@+id/feedbackImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/feedback"
+            android:scaleType="centerCrop"
+            android:contentDescription="Feedback Image"
+            android:background="@drawable/rounded_image_background" />
+    </FrameLayout>
+
+    <!-- Feedback EditText -->
+    <EditText
+        android:id="@+id/feedbackEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your feedback here"
+        android:inputType="textMultiLine"
+        android:orientation="vertical"
+        android:minHeight="100dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitFeedbackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Skip Button -->
+    <Button
+        android:id="@+id/skipFeedbackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip Feedback"/>
+
+</LinearLayout>

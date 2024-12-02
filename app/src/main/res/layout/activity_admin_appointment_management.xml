@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background1"
+    tools:context=".AdminAppointmentManagementActivity">
+
+    <!-- Radio Buttons to toggle between Past and Future Appointments -->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/pastAppointmentsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Past Appointments" />
+
+        <RadioButton
+            android:id="@+id/futureAppointmentsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Future Appointments"
+            android:checked="true" />
+    </RadioGroup>
+
+    <!-- ListView to display appointments -->
+    <ListView
+        android:id="@+id/appointmentsListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <!-- Back to Dashboard Button -->
+    <Button
+        android:id="@+id/backToDashboardButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard" />
+
+</LinearLayout>

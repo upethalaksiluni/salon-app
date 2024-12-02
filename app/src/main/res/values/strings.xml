@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sulochana Salon</string>
+    <string-array name="client_dashboard_options">
+        <item>Choose Option</item>
+        <item>View Profile</item>
+        <item>Logout</item>
+    </string-array>
+
+    <!-- Strings for Navigation Drawer toggle -->
+    <string name="navigation_drawer_open">Open Drawer</string>
+    <string name="navigation_drawer_close">Close Drawer</string>
+</resources>

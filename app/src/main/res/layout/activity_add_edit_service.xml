@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    tools:context=".AddEditServiceActivity">
+
+    <!-- ImageView for the Service Image -->
+    <ImageView
+        android:id="@+id/serviceImageView"
+        android:layout_width="212dp"
+        android:layout_height="217dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Service Image"
+        android:src="@drawable/service" />
+
+    <EditText
+        android:id="@+id/serviceNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Name"
+        android:layout_marginTop="20dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/serviceDescriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Description"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/servicePriceInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Price"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/saveServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Service"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/backToDashboardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Dashboard"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

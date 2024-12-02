@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_manage_services"
+        android:title="Manage Services"
+        android:icon="@drawable/ic_manage_services"/>
+    <item
+        android:id="@+id/nav_view_users"
+        android:title="View Users"
+        android:icon="@drawable/ic_view_users"/>
+    <item
+        android:id="@+id/nav_view_payments"
+        android:title="View Payments"
+        android:icon="@drawable/ic_payment_history"/>
+    <item
+        android:id="@+id/nav_add_service"
+        android:title="Add Service"
+        android:icon="@drawable/ic_add_service"/>
+
+    <item
+        android:id="@+id/nav_appointments"
+        android:title="Manage Appointments"
+        android:icon="@drawable/ic_appointments"/>
+
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="View Notifications"
+        android:icon="@drawable/ic_notifications"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"/>
+
+</menu>
