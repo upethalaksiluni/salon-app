@@ -175,7 +175,7 @@ Multi-language support.
 
 Maintainer: Upetha Laksiluni
 GitHub: https://github.com/upethalaksiluni
-Linkedin: 
+Linkedin: https://www.linkedin.com/posts/upetha-laksiluni-b832a1397_github-upethalaksilunisalon-app-activity-7413497316210405377-v7ZL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAGFlf1MBsLnyaMsAdAFAkXuhU9sYVk-PYK8
 Email: upethalaksiluni@gmail.com
 
 License
